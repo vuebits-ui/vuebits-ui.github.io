@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples66"],{f337:function(n,s,e){"use strict";e.r(s),s["default"]='<template>\n  <div\n    class="theme"\n  >\n    <div class="is-dark">\n      is-dark\n    </div>\n    <div class="is-light">\n      is-light\n    </div>\n  </div>\n</template>\n\n<script>\n\nexport default {\n  name: \'CommonClassesTheme\'\n};\n<\/script>\n\n<style>\n</style>\n'}}]);
+//# sourceMappingURL=examples66.6c177947.js.map

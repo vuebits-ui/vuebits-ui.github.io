@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples11"],{c0d4:function(n,t,o){"use strict";o.r(t),t["default"]="<template>\n  <VButton\n    dark\n  >\n    I am normal\n  </VButton>\n  <VButton\n    dark\n    loading\n  >\n    I am loading\n  </VButton>\n</template>\n\n<script>\nimport {\n  VButton\n} from '@/components';\n\nexport default {\n  name: 'ButtonLoading',\n  components: {\n    VButton\n  }\n};\n<\/script>\n"}}]);
+//# sourceMappingURL=examples11.1fda9bef.js.map
