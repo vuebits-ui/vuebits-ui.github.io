@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples44"],{d15b:function(n,e,t){"use strict";t.r(e),e["default"]="<template>\n  <VTile>\n    I am normal\n  </VTile>\n  <VTile\n    elevated\n  >\n    I am elavated\n  </VTile>\n</template>\n\n<script>\nimport {\n  VTile\n} from '@/components';\n\nexport default {\n  name: 'TileElevation',\n  components: {\n    VTile\n  }\n};\n<\/script>\n"}}]);
-//# sourceMappingURL=examples44.58e32a15.js.map

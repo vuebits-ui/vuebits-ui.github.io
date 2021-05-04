@@ -2,6 +2,18 @@ import { PropType } from 'vue';
 import { CssClass } from '@/helpers/css-classes';
 import { NotificationTypeName, NotificationType } from './models';
 declare const _default: import("vue").DefineComponent<{
+    rounded: {
+        type: PropType<boolean>;
+        default: boolean;
+    };
+    roundedLg: {
+        type: PropType<boolean>;
+        default: boolean;
+    };
+    round: {
+        type: PropType<boolean>;
+        default: boolean;
+    };
     type: {
         type: PropType<NotificationTypeName>;
         default: NotificationType;
@@ -19,11 +31,13 @@ declare const _default: import("vue").DefineComponent<{
         type: PropType<number | null>;
         default: null;
     };
-    rounded: {
-        type: PropType<boolean>;
-        default: boolean;
-    };
-}, unknown, unknown, {
+}, {
+    roundedClass: import("vue").ComputedRef<{
+        'is-rounded': any;
+        'is-rounded-lg': any;
+        'is-round': any;
+    }>;
+}, unknown, {
     style(): any;
     classes(): CssClass[];
 }, {
@@ -32,12 +46,16 @@ declare const _default: import("vue").DefineComponent<{
     type: NotificationTypeName;
     size: "lg" | "sm" | "md";
     rounded: boolean;
+    roundedLg: boolean;
+    round: boolean;
     width: number | null;
     message: string;
 } & {}>, {
     type: NotificationTypeName;
     size: "lg" | "sm" | "md";
     rounded: boolean;
+    roundedLg: boolean;
+    round: boolean;
     width: number | null;
 }>;
 export default _default;
