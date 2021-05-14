@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples10"],{"156a":function(n,t,o){"use strict";o.r(t),t["default"]="<template>\n  <VButton\n    dark\n  >\n    I am normal\n  </VButton>\n  <VButton\n    dark\n    disabled\n  >\n    I am disabled\n  </VButton>\n</template>\n\n<script>\nimport {\n  VButton\n} from '@/components';\n\nexport default {\n  name: 'ButtonDisabled',\n  components: {\n    VButton\n  }\n};\n<\/script>\n"}}]);
+//# sourceMappingURL=examples10.d528ffb5.js.map

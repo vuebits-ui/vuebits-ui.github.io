@@ -32,6 +32,10 @@ declare const _default: import("vue").DefineComponent<{}, {}, {
             type: import("vue").PropType<string | undefined>;
             default: undefined;
         };
+        iconPrefix: {
+            type: import("vue").PropType<string | undefined>;
+            default: undefined;
+        };
         disabled: {
             type: import("vue").PropType<boolean>;
             default: boolean;
@@ -80,6 +84,7 @@ declare const _default: import("vue").DefineComponent<{}, {}, {
         hoverable: boolean;
         icon: string;
         iconType: string | undefined;
+        iconPrefix: string | undefined;
     } & {}>, {
         size: string;
         rounded: boolean;
@@ -96,6 +101,7 @@ declare const _default: import("vue").DefineComponent<{}, {}, {
         hoverable: boolean;
         icon: string;
         iconType: string | undefined;
+        iconPrefix: string | undefined;
     }>;
 }, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, import("vue").EmitsOptions, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{} & {}>, {}>;
 export default _default;

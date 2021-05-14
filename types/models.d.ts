@@ -66,7 +66,25 @@ export interface LocaleOptions {
     };
     t(): Dictionary;
 }
-export interface Options extends LocaleOptions, BemOptions {
+export interface IconsOptions {
+    icons: {
+        type: string;
+        prefix: string;
+        values: {
+            [key in string]: string;
+        };
+    };
 }
-export interface CustomOptions extends CustomLocaleOptions, CustomBemOptions {
+export interface CustomIconsOptions {
+    icons?: {
+        type: string;
+        prefix: string;
+        values: {
+            [key in string]: string;
+        };
+    };
+}
+export interface Options extends LocaleOptions, BemOptions, IconsOptions {
+}
+export interface CustomOptions extends CustomLocaleOptions, CustomBemOptions, CustomIconsOptions {
 }

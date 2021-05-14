@@ -26,14 +26,20 @@ declare const _default: import("vue").DefineComponent<{
         default: null;
     };
     pulse: {
-        type: BooleanConstructor;
+        type: PropType<boolean>;
         default: boolean;
     };
     spin: {
-        type: BooleanConstructor;
+        type: PropType<boolean>;
+        default: boolean;
+    };
+    isInternal: {
+        type: PropType<boolean>;
         default: boolean;
     };
 }, unknown, unknown, {
+    computedPrefix(): string;
+    computedType(): string;
     classes(): CssClass[];
 }, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
     name: string;
@@ -44,6 +50,7 @@ declare const _default: import("vue").DefineComponent<{
     flip: "horizontal" | "vertical" | "both" | null;
     pulse: boolean;
     spin: boolean;
+    isInternal: boolean;
 } & {}>, {
     name: string;
     prefix: string;
@@ -53,5 +60,6 @@ declare const _default: import("vue").DefineComponent<{
     flip: "horizontal" | "vertical" | "both" | null;
     pulse: boolean;
     spin: boolean;
+    isInternal: boolean;
 }>;
 export default _default;

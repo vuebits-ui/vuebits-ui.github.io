@@ -33,6 +33,10 @@ declare const _default: import("vue").DefineComponent<{
         type: PropType<string | undefined>;
         default: undefined;
     };
+    iconPrefix: {
+        type: PropType<string | undefined>;
+        default: undefined;
+    };
     disabled: {
         type: PropType<boolean>;
         default: boolean;
@@ -81,6 +85,7 @@ declare const _default: import("vue").DefineComponent<{
     hoverable: boolean;
     icon: string;
     iconType: string | undefined;
+    iconPrefix: string | undefined;
 } & {}>, {
     size: string;
     rounded: boolean;
@@ -97,5 +102,6 @@ declare const _default: import("vue").DefineComponent<{
     hoverable: boolean;
     icon: string;
     iconType: string | undefined;
+    iconPrefix: string | undefined;
 }>;
 export default _default;

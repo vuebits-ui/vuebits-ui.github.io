@@ -1,15 +1,17 @@
-import { PropType, Ref } from 'vue';
-export declare type Spacing = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | null;
+import { Ref } from 'vue';
+import { marginProps, useMargin } from './margin';
+import { paddingProps, usePadding } from './padding';
 export declare const spacingProps: {
     padding: {
-        type: PropType<Spacing>;
+        type: import("vue").PropType<import("./models").Spacing>;
         default: null;
     };
     margin: {
-        type: PropType<Spacing>;
+        type: import("vue").PropType<import("./models").Spacing>;
         default: null;
     };
 };
 export declare function useSpacing(padding: Ref, margin: Ref): import("vue").ComputedRef<{
     [x: string]: any;
 }>;
+export { marginProps, paddingProps, useMargin, usePadding };

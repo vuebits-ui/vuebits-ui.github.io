@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples9"],{fe07:function(n,t,e){"use strict";e.r(t),t["default"]="<template>\n  <VButton\n    dark\n  >\n    I am normal\n  </VButton>\n  <VButton\n    dark\n    elevated\n  >\n    I am elevated\n  </VButton>\n</template>\n\n<script>\nimport {\n  VButton\n} from '@/components';\n\nexport default {\n  name: 'ButtonElevation',\n  components: {\n    VButton\n  }\n};\n<\/script>\n"}}]);
-//# sourceMappingURL=examples9.f569e5b0.js.map
