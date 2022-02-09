@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["examples30"],{"54e2":function(n,e,o){"use strict";o.r(e),e["default"]='<template>\n  <VIcon\n    name="check"\n    spin\n  />\n  <VIcon\n    name="spinner"\n    spin\n  />\n  <VIcon\n    name="cog"\n    spin\n  />\n  <VIcon\n    spin\n  >\n    Hello!\n  </VIcon>\n</template>\n\n<script>\nimport {\n  VIcon\n} from \'@/components\';\n\nexport default {\n  name: \'IconSpin\',\n  components: {\n    VIcon\n  }\n};\n<\/script>\n'}}]);
-//# sourceMappingURL=examples30.6c8b0da8.js.map
