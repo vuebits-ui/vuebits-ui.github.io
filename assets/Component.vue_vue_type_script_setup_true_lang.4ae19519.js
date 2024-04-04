@@ -1,0 +1,1 @@
+import{d as t,o as s,e as a,n as o,h as r,j as l,p}from"./index.d767eba6.js";const c={name:"UiProgressBar"},_=t({...c,props:{loading:{type:Boolean,default:!1}},setup(i){const e=p("ui-progress-bar");return(n,m)=>(s(),a("div",{class:o(r(e)({}))},[n.loading?(s(),a("div",{key:0,class:o(r(e)({e:"progress"}))},null,2)):l("",!0)],2))}});export{_};
